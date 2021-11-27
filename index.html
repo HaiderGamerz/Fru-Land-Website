@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fru Land | Home</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/bootstrap.min.css" />
+    <style>
+      .banner-image {
+        background-image: url('/images/week1-2.png');
+        background-repeat: no-repeat;
+        
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html"><img src="/images/favicon.png"> Fru Land</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"><bold style="font-family: monospace;color: aqua;">Privacy & Policy</bold></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/pages/faq.html">F.A.Q</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- Banner Image  -->
+      <div
+        class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+        style="width:auto;"
+      >
+        <div class="content text-center">
+         
+        </div>
+      </div>
+      <section class="hero-section">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/Ghost-Logo-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fru Land</h5>
+                  <p class="card-text">Play With Your Friends.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-white">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/week1-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Season Three</h5>
+                  <p class="card-text">Fru Land's <bold style="color: aqua;">Season Three</bold></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-white">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/week2-2.png" width="25px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RESET</h5>
+                  <p class="card-text">The FruityCraft Survival Has <BOLD style="color: aqua;font-family: cursive;">RESET.</BOLD></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-white">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <script src="/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript">
+        var nav = document.querySelector('nav');
+  
+        window.addEventListener('scroll', function () {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-dark', 'shadow');
+          } else {
+            nav.classList.remove('bg-dark', 'shadow');
+          }
+        });
+      </script  
+</body>
+</html>
